@@ -170,26 +170,10 @@ Install focustimer using one of the following methods:
 ❯ cd focustimer
 ```
 
-3. Install the project dependencies:
-
-echo 'INSERT-INSTALL-COMMAND-HERE'
-
-
 
 ###  Usage
 Run focustimer using the following command:
-echo 'INSERT-RUN-COMMAND-HERE'
-
-###  Testing
-Run the test suite using the following command:
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+`npx lite-server` 
 
 ---
 
@@ -235,15 +219,8 @@ echo 'INSERT-TEST-COMMAND-HERE'
 </details>
 
 ---
+##  Thanks
 
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
+Your are the best ⭐️ !
 
 ---
