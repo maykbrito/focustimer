@@ -28,11 +28,8 @@
   - [ Prerequisites](#-prerequisites)
   - [ Installation](#-installation)
   - [ Usage](#-usage)
-  - [ Testing](#-testing)
-- [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
+- [ Thanks](#-thanks)
 
 ---
 
@@ -48,10 +45,8 @@ FocusTimer is a Pomodoro-style timer app that helps users stay focused and produ
 | :--- | :---:           | :---          |
 | ⚙️  | **Architecture**  | <ul><li>Utilizes **JavaScript** as the primary language with **CSS** and **HTML** for styling and structure.</li><li>Follows a modular architecture with separate modules for timer, sounds, actions, elements, events, and state in the `FocusTimer` directory.</li><li>Implements a countdown feature in `timer.js` and manages user interactions in `events.js`, enhancing user experience and functionality.</li></ul> |
 | 🔩 | **Code Quality**  | <ul><li>Well-structured codebase with clear separation of concerns into different modules within the `FocusTimer` directory.</li><li>Consistent coding style and naming conventions followed throughout the project.</li><li>Utilizes ES6 features like modules, arrow functions, and template literals for cleaner and more readable code.</li></ul> |
-| 📄 | **Documentation** | <ul><li>Includes detailed documentation within the code files explaining the purpose and functionality of each module and file.</li><li>Code comments provide insights into the logic and implementation details, aiding in understanding and maintenance.</li><li>Documentation emphasizes the importance of each module in the overall project architecture.</li></ul> |
 | 🔌 | **Integrations**  | <ul><li>Integrates audio assets for button press, kitchen timer, and background audio in the `sounds.js` module, enhancing user experience.</li><li>Interacts with DOM elements through the `elements.js` module to control the focus timer functionality.</li><li>Manages user interactions and timer actions through the `events.js` module, ensuring seamless integration with the UI.</li></ul> |
 | 🧩 | **Modularity**    | <ul><li>Follows a modular approach with separate modules for distinct functionalities like timer, sounds, actions, elements, events, and state.</li><li>Encapsulates related functionality within each module, promoting code reusability and maintainability.</li><li>Modules communicate through well-defined interfaces, reducing dependencies and enhancing scalability.</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Testing details not provided in the context. Consider implementing unit tests for critical functionalities like timer logic, user interactions, and state management.</li><li>Adopt a test-driven development approach to ensure robustness and reliability of the project.</li><li>Explore tools like **Jest** or **Mocha** for writing and running tests efficiently.</li></ul> |
 | ⚡️  | **Performance**   | <ul><li>Optimizes performance by efficiently updating the timer display with minutes and seconds, minimizing UI rendering overhead.</li><li>Utilizes state management to handle countdown logic and timer actions, ensuring smooth user experience.</li><li>Implements event handling for user interactions, enhancing responsiveness and interactivity.</li></ul> |
 
 ---
@@ -162,18 +157,20 @@ Install focustimer using one of the following methods:
 
 1. Clone the focustimer repository:
 ```sh
-❯ git clone https://github.com/maykbrito/focustimer
+ಠ git clone https://github.com/maykbrito/focustimer
 ```
 
 2. Navigate to the project directory:
 ```sh
-❯ cd focustimer
+ಠ cd focustimer
 ```
 
 
 ###  Usage
 Run focustimer using the following command:
-`npx lite-server` 
+```sh
+ಠ npx lite-server
+```
 
 ---
 
@@ -219,6 +216,7 @@ Run focustimer using the following command:
 </details>
 
 ---
+
 ##  Thanks
 
 Your are the best ⭐️ !

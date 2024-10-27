@@ -33,6 +33,7 @@ export function toggleMusic() {
 
     if(state.isMute) {
         sounds.bgAudio.play()
+        sounds.bgAudio.loop = true
         return
     }
 
